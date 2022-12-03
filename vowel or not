@@ -1,0 +1,7 @@
+k=str(input("enter the lowercase alphabet "))
+if k=='a' or k=='e' or k=='i'or k=='o' or k=='u':
+ 	print("entered alphabet is vowel")
+elif k=='A' or k=='E' or k=='I' or k=='O' or k=='U':
+	print("entered alphabet is vowel")
+else:
+	print("it is a consonant")
