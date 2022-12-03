@@ -1,0 +1,9 @@
+a=str(input("enter the month in lower case "))
+if a=='january' or a=='march' or a=='may' or a=='july' or a=='august' or a=='october' or a=='december' :
+	print(a," month have 31 days")
+elif a=='april' or a=='november' or a=='june' or a=='september' :
+	print(a," month have 30 days")
+elif a=='february' :
+	print(a,"month have 28 or 29 days")
+else :
+	print("your enterd month has spelling mistake")
