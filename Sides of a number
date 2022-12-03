@@ -1,0 +1,19 @@
+n=int(input("enter the number of sides "))
+if n==3:
+	print('it is a Triangle')
+elif n==4 :
+	print('it is a square')
+elif n==5 :
+	print('it is a pentagon')
+elif n==6 :
+	print('it is a Hexagon')
+elif n==7 :
+	print('it is a heptagon')
+elif n==8 :
+	print('it is a octagon')
+elif n==9 :
+	print('it is a nonagon')
+elif n==10 :
+	print('it is a decagon')
+else:
+	print('you enterd consonant')
