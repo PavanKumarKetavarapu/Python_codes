@@ -1,0 +1,10 @@
+m=str(input('enter the month '))
+d=int(input('enter the date of the month '))
+if m=='january' and d==1:
+	print("new year's day")
+elif m=='july' and d==1:
+	print("canada day")
+elif m=='december' and d==25:
+	print(" christams day")
+else:
+	print("it's not a holiday")
