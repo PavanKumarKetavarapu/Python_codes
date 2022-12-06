@@ -1,0 +1,12 @@
+a=float(input("enter the rating of the employee "))
+if a>=0.0 and a<0.4:
+	print("unacceptable performance")
+	bonus=0
+elif a>0.4 and a<=0.6:
+	print("acceptable performance")
+	bonus1=0.4*2400
+	print("bonus is",bonus1)
+elif a>0.6:
+	print("meritorious performance")
+	bonus2=0.6*2400
+	print("bonus is",bonus2)
