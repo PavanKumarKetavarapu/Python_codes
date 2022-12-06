@@ -1,0 +1,5 @@
+n=int(input("enter the age of the candidate "))
+if n>=18:
+	print("person is eligible to cast the vote")
+else:
+	print("the person is not eligble to cast the vote")
