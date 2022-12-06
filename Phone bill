@@ -1,0 +1,26 @@
+c=int(input("enter the no of minutes "))
+m=int(input("enter the no of messeges "))
+if c<=50 and m<=50:
+	d1=15+0.44
+	d2=d1*5/100
+	d3=d1+d2
+	print(d3)
+elif c>50 and m<=50:
+	c1=(c-50)*0.25
+	a1=15+0.44+c1
+	a2=a1*5/100
+	a3=a1+a2
+	print(a3)
+elif m>50 and c<=50:
+	m1=(m-50)*0.15
+	b1=15+0.44+m1
+	b2=b1*5/100
+	b3=b1+b2
+	print(b3)
+elif m>50 and c>50:
+	c2=(c-50)*0.25
+	m2=(m-50)*0.15
+	i1=15+c2+m2+0.44
+	i2=i1*5/100
+	i3=i1+i2
+	print(i3)
