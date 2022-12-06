@@ -1,0 +1,17 @@
+s=int(input("enter the salary of  the employee "))
+y=int(input("enter the years of service of the employee "))
+b1=10/100
+b2=8/100
+b3=5/100
+if y>10:
+    b=s*b1
+    print("net bonus amount of the employee is",b,"for the",y,"years")
+    print("salary and bonus total amount is",s+b)
+elif y>=6 and y<=10:
+    b=s*b2
+    print("net bonus amount of the employee is", b, "for the", y, "years")
+    print("salary and bonus total amount is", s + b)
+elif y<6 and y<=1:
+    b=s*b3
+    print("net bonus amount of the employee is", b, "for the", y, "years")
+    print("salary and bonus total amount is", s + b)
