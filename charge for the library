@@ -1,0 +1,15 @@
+n=int(input("enter the number of days "))
+if n>=0 and n<=5:
+    n1=n*2
+    print("charge for the library is",n1,"₹ for",n,"days")
+elif n>=6 and n<=10:
+    n2=n*3
+    print("charge for the library is", n2, "₹ for", n, "days")
+elif n>=11 and n<=15:
+    n3=n*4
+    print("charge for the library is", n3, "₹ for", n, "days")
+elif n>15:
+    n4=n*5
+    print("charge for the library is", n4, "₹ for", n, "days")
+else:
+    print("enter the correct input ")
