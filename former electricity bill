@@ -1,0 +1,14 @@
+n=int(input("enter the number of units "))
+if n<=100:
+	k=100*0
+	print("user will consumed",n,"units the bill amount is"k)
+elif n>=100 and n<=200:
+	a=n-100
+	k=a*5
+	print("user will consumed",n,"units the bill amount is"k)
+elif n>200:
+	a1=n-200
+	k1=500
+	k2=a1*10
+	i=k1+k2
+	print("user will consumed",n,"units the bill amount is"i)
