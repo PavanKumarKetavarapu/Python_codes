@@ -1,0 +1,7 @@
+u=int(input("enter the number of units consumed "))
+if u<=100:
+    print("total amount of the bill is Rs.",3*u)
+elif u>100 and u<200:
+    print("total amount of the bill is Rs.",u*5)
+elif u>200:
+    print("total bill amount is Rs.",u*10)
