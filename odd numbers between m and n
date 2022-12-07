@@ -1,0 +1,5 @@
+m = int(input("enter the starting integer: "))
+n = int(input("enter the ending integer: "))
+for i in range(m, n + 1):
+    if i%2!=0:
+        print(i)
