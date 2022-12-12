@@ -1,0 +1,5 @@
+def shipping_price(NoOfItems):         #Creating the function to take the input for no of items as arguments
+    price=10.95+(NoOfItems-1)*2.95     #Computing the calculation for the first item and Nth item
+    print(price)                       #Printing the shipping price for no of items
+
+shipping_price(2)                      #Calling the function and provides the no of items as arguments
