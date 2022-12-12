@@ -1,0 +1,8 @@
+def fare(distance):                  #Creating a function for taking the distance in km
+    meters=distance*1000             #converting the kilo meters in meters
+    price=(meters/140)*0.25          #calculating the price for every 140 meters
+    base=4                           #initilizing and declaring the base fare
+    total=base+price                 #summing the total base and distance travelled price
+    print(total,"$")                 #printing the final output in dollors
+
+fare(5)                              #Calling the function for computing the fare for 5km distance
