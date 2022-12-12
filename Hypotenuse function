@@ -1,0 +1,6 @@
+def hypotenuse(a,b): #Creating a function using def keyword with two arguments
+    import math
+    c=math.sqrt((a**2)+(b**2))
+    print(c)
+
+hypotenuse(9,9) #Calling the function providing the values of a and b
