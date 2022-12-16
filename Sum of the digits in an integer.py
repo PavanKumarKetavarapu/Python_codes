@@ -1,0 +1,19 @@
+n=int(input("enter any number upto 1 crore: "))
+n1=n//10000000
+r1=n%10000000
+n2=r1//1000000
+r2=r1%1000000
+n3=r2//100000
+r3=r2%100000
+n4=r3//10000
+r4=r3%10000
+n5=r4//1000
+r5=r4%1000
+n6=r5//100
+r6=r5%100
+n7=r6//10
+r7=r6%10
+n8=r7//1
+r8=r7%1
+sum=n1+n2+n3+n5+n6+n7+n8
+print("sum of digits of the given number",n,"is",sum)
